@@ -1,5 +1,13 @@
 @charset "utf-8";
 
 h1,h2,p{
-    margin-left: 20px
-};
+   
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+body{
+    background-color: rgb(121, 254, 254);
+}
+
