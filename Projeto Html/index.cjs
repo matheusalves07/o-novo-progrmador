@@ -75,7 +75,7 @@ function addPageSponsor({
   if (!fs.existsSync(pageFilePath)) {
     console.error(`Page file not found: ${pageFilePath}`);
     process.exit(1);
-  } 
+  }   
 
   console.log(`Updating page: ${urlPart}`);
   const pageFileContent = fs.readFileSync(pageFilePath, 'utf8');
