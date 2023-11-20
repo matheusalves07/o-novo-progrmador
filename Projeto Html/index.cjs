@@ -71,7 +71,7 @@ function addPageSponsor({
     `../src/data/${parentDir}`,
     `${pageId}/${pageId}.md`
   );
-
+ 
   if (!fs.existsSync(pageFilePath)) {
     console.error(`Page file not found: ${pageFilePath}`);
     process.exit(1);
@@ -102,6 +102,7 @@ function addPageSponsor({
     company,
   });
 
+  
   
   // Insert sponsor data at 10 index i.e. after
   // roadmap dimensions in the frontmatter
