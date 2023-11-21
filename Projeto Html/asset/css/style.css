@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+h1,h2,p{
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(121, 254, 254);
+}
+
+div {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5vw;
+}
+
+img.dev{
+    width: 300px;
+    height: 300px;
+}
+
+video{
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-left: 35%;
+    
+
+}
+
+
