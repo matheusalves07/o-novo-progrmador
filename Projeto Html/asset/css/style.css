@@ -8,17 +8,39 @@ h1,h2,p{
 
 body{
     background-color: rgb(121, 254, 254);
+    
+    
 }
 
 div {
+    background-color: #ffff;
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 5vw;
+    border-radius:40px;
+}
+
+div.div1{
+    width: 25vw;
+}
+
+div.div2{
+    width: 25vw;
+    
 }
 
 img.dev{
     width: 300px;
     height: 300px;
+
+}
+
+img.google{
+    width: 20vw;
+
+}
+img#meta{
+    width: 20vw;
 }
 
 video{
