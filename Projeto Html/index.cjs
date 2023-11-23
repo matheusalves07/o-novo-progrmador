@@ -102,13 +102,16 @@ function addPageSponsor({
     company,
   });
 
+
+  
   
   
   // Insert sponsor data at 10 index i.e. after
   // roadmap dimensions in the frontmatter
   frontmatterValues.splice(10, 0, ['sponsors', sponsors]);
 
-  frontmatterObj = Object.fromEntries(frontmatterValues);
+  frontmatterObj = Object.fromEntries(frontmatterValues); 
+  
 
   const newFrontmatter = yaml.dump(frontmatterObj, {
     lineWidth: 10000,
