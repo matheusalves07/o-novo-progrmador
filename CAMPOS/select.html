@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <p>Select e Datalist</p>
+
+
+    <p>
+        <label for="iest">Estado</label>
+        <select name="estado" id="iest">
+            <optgroup label="Nordeste">
+                <option value="BA">Bahia</option>
+                <option value="PE">Pernambuco</option>
+            </optgroup>
+            <optgroup label="Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                
+            </optgroup>
+        </select>
+    </p>
+
+
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="iprof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">Administador</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="MAR">Marceneiro</option>
+            <option value="MED">Médico</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="ifile"> Arquivos</label> <br>
+        <input type="file" name="arquivo"  > <br> 
+    </p>
+    <p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"></p>
+    
+</body>
+</html>
