@@ -3,3 +3,62 @@
 body{
     
 }
+
+div{
+
+}
+
+div.top{
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.icone--left{
+    float: left;
+    background-color: #ff0000;
+    margin:20px 0px 0px 10px;
+    color: aliceblue;
+    border-radius:2px;
+    width: 20px;
+    height: 20px;
+}
+
+.topo--left{
+    float: left;
+
+}
+
+.topo--center{
+   width: 100%;
+   max-width: 400px;
+}
+
+.topo--right{
+   
+}
+
+
+img{
+
+}
+
+
+.image--left{
+    width: 100%;
+    max-width: 100px;
+    margin:0px 0px 0px 1px;
+    clear: both;
+}
+
+
+input{
+
+}
+
+.search--topo{
+    margin: 20px 0px 0px 10px;
+    float: ;
+    padding: 4px 10px;
+    
+
+}
