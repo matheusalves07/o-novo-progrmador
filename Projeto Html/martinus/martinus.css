@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+
+body{
+
+    background-color: #BF4136 ;
+}
+
+h1,h2,h3{
+    color:#F2D6BD ;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+img{
+    width:100%;
+    max-width:300px;
+    border-radius: 20px;
+    margin: 30px 0px 30px 39%;
+}
+p{
+    color: #ffff;
+    text-align: center;
+}
+
+
+div{
+    background-color:#591607 ;
+
+}
+
+li.orgulho{
+    color:  white;
+   
+}
+
+li{
+    color:  white;
+       
+}
