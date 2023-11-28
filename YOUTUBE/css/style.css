@@ -15,7 +15,8 @@ div.top{
 
 .icone--left{
     float: left;
-    background-color: #ff0000;
+    padding: 2px;
+    background-color: #6254e7;
     margin:20px 0px 0px 10px;
     color: aliceblue;
     border-radius:2px;
@@ -28,10 +29,13 @@ div.top{
 
 }
 
-.topo--center{
+/*.topo--center{
    width: 100%;
    max-width: 400px;
-}
+   
+
+
+}*/
 
 .topo--right{
    
@@ -56,9 +60,46 @@ input{
 }
 
 .search--topo{
-    margin: 20px 0px 0px 10px;
-   /* float: ;*/
-    padding: 4px 10px;
+    
+    width: 100%;
+    max-width: 600px;
+
+    padding: 10px 10px;
+    margin: 10px 0px 0px 160px;
+    border: 0.4px solid rgba(0, 0, 0, 0.495);
+    border-radius: 20px 0px 0px 20px;
+    outline: #8502ff81;
+    float: left;
     
 
+}
+
+:placeholder-shown{
+    font-size: 16px;
+    padding-left: 40px;
+    
+}
+
+
+button{
+
+}
+
+button.button--search{
+    padding: 10px 10px;
+    margin: 10px 0px 0px 0px;
+    border: 0.4px solid rgba(0, 0, 0, 0.495);
+    border-radius: 0px 20px 20px 0px;
+    float: left;
+    outline: #8502ff81;
+    background-color: #6254e7;
+    
+
+}
+
+.fa-magnifying-glass{
+    color: #ffff;
+    padding: 2.7px 15px;
+    float: left;
+    
 }
