@@ -120,7 +120,8 @@ function addPageSponsor({
   });
   const newContent = `---\n${newFrontmatter}---\n\n${contentWithoutFrontmatter}`;
 
-  fs.writeFileSync(pageFilePath, newContent, 'utf8');
+  fs.writeFileSync(pageFilePath, newContent, 'utf8'); 
+  
 }
 
 //roadmap front 
