@@ -124,7 +124,7 @@ function addPageSponsor({
   
 }
 
-//roadmap front 
+//roadmap front   
 removeAllSponsors('roadmaps');
 removeAllSponsors('best-practices');
 
