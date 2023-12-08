@@ -72,6 +72,7 @@ function addPageSponsor({
     `${pageId}/${pageId}.md`
   );
  
+  
   if (!fs.existsSync(pageFilePath)) {
     console.error(`Page file not found: ${pageFilePath}`);
     process.exit(1);
