@@ -152,7 +152,7 @@ fetch(sheetUrl)
         {addPageSponsor}
       }); */
     rows.map((row) => {
-      // prettier-ignore ignorar campo de adesão de informe
+      // prettier-ignore ignorar campo de adesão de informe   
       const [
         pageUrl,
         company,
