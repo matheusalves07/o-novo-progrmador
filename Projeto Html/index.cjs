@@ -136,7 +136,8 @@ fetch(sheetUrl)
   .then((res) => res.json())
   .then((rawData) => {
     const rows = rawData.values;
-     /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';
+    
+     /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';  
       const currentDate = new Date();
       const isDateInRange =
         currentDate >= new Date(startDate) && currentDate <= new Date(endDate);
