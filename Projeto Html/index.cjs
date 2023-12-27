@@ -139,10 +139,7 @@ fetch(sheetUrl)
     
      /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';  
 
-     
-
-
-     
+    
         
       const currentDate = new Date();
       const isDateInRange =
