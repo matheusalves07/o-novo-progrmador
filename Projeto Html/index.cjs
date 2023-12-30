@@ -138,11 +138,7 @@ fetch(sheetUrl)
   .then((rawData) => {
     const rows = rawData.values;
     
-     /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';  
-
-    
-        
-     
+     /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';       
       const currentDate = new Date();
       const isDateInRange =
         currentDate >= new Date(startDate) && currentDate <= new Date(endDate);
@@ -150,7 +146,6 @@ fetch(sheetUrl)
       if (!isConfiguredActive || !isDateInRange) {
         return;
       }
-
 
       addPayment url inst-reload({
         API,
