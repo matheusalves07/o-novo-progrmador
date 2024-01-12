@@ -71,7 +71,6 @@ function addPageSponsor({
     `../src/data/${parentDir}`,
     `${pageId}/${pageId}.md`
   );
-  
  
   
   
