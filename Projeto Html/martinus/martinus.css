@@ -22,7 +22,6 @@ img{
     box-shadow: 3px 3px black;
 }
 
-
 img:hover{
     width:100%;
     max-width:300px;
@@ -32,6 +31,7 @@ img:hover{
     transition: 2.2s;
 
 }
+
 p{
     color: #ffff;
     text-align: center;
