@@ -98,6 +98,7 @@ function addPageSponsor({
     .trim();
 
   let frontmatterObj = yaml.load(existingFrontmatter);
+  
   const sponsors = frontmatterObj.sponsors || [];
 
   const frontmatterValues = Object.entries(frontmatterObj);
