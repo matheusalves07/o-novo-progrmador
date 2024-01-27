@@ -88,6 +88,7 @@ function addPageSponsor({
   }   
   
 
+  
   console.log(`Updating page: ${urlPart}`);
   const pageFileContent = fs.readFileSync(pageFilePath, 'utf8');
 
