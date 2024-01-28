@@ -73,12 +73,6 @@ function addPageSponsor({
   );
  
   
-  
-  
-  
-  
-  
-  
 
   
   
@@ -91,9 +85,7 @@ function addPageSponsor({
   
   console.log(`Updating page: ${urlPart}`);
   const pageFileContent = fs.readFileSync(pageFilePath, 'utf8');
-
   const frontMatterRegex = /---\n([\s\S]*?)\n---/;
-
   const existingFrontmatter = pageFileContent.match(frontMatterRegex)[1];
   const contentWithoutFrontmatter = pageFileContent
     .replace(frontMatterRegex, ``)
