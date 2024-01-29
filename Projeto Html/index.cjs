@@ -49,6 +49,7 @@ function removeAllSponsors(baseContentDir) {
 }
 
 
+
 function addPageSponsor({
   pageUrl,
   company,
