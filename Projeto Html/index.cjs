@@ -127,7 +127,9 @@ function addPageSponsor({
 
   fs.writeFileSync(pageFilePath, newContent, 'utf8'); 
   
+  
 }
+
 
 //roadmap front    
 removeAllSponsors('roadmaps');
