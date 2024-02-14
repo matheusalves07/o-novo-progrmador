@@ -131,6 +131,7 @@ function addPageSponsor({
 }
 
 
+
 //roadmap front    
 removeAllSponsors('roadmaps');
 removeAllSponsors('best-practices');
@@ -144,7 +145,6 @@ fetch(sheetUrl)
     const rows = rawData.values;
     
      /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';       
-     
      
      
      
