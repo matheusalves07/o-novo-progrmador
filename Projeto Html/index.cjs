@@ -104,6 +104,7 @@ function addPageSponsor({
     description: adDescription,
     page: roadmapLabel,
     company,
+    
   });
 
 
