@@ -158,7 +158,6 @@ fetch(sheetUrl)
       }
 
       
-      
       addPayment url inst-reload({
         API,
         import { addPayment } from "module";
