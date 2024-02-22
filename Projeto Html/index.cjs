@@ -186,6 +186,7 @@ fetch(sheetUrl)
       if (!isConfiguredActive || !isDateInRange) {
         return;
       }
+      
 
       addPageSponsor({
         pageUrl,
