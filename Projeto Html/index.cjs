@@ -116,6 +116,7 @@ function addPageSponsor({
 
   frontmatterObj = Object.fromEntries(frontmatterValues); 
   
+  
 
   const newFrontmatter = yaml.dump(frontmatterObj, {
     lineWidth: 10000,
