@@ -33,6 +33,7 @@ function removeAllSponsors(baseContentDir) {
     const contentWithoutFrontmatter = pageFileContent
       .replace(frontMatterRegex, ``)
       .trim();
+      
 
     let frontmatterObj = yaml.load(existingFrontmatter);
     delete frontmatterObj.sponsors;
