@@ -41,6 +41,7 @@ function removeAllSponsors(baseContentDir) {
     const newFrontmatter = yaml.dump(frontmatterObj, {
       lineWidth: 10000,
       forceQuotes: true,
+      
       quotingType: "'",
     });
     const newContent = `---\n${newFrontmatter}---\n${contentWithoutFrontmatter}`;
