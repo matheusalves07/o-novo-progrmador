@@ -8,6 +8,7 @@ const sheetId = process.env.SPONSOR_SHEET_ID;
 if (!apiKey || !sheetId) {
   console.error('Missing API key or sheet ID');
   process.exit(1);
+  
 }
 
 const sheetRange = 'A3:I1001';
