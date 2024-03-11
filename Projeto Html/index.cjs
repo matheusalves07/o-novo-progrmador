@@ -32,6 +32,7 @@ function removeAllSponsors(baseContentDir) {
 
     const frontMatterRegex = /---\n([\s\S]*?)\n---/;
 
+    
     const existingFrontmatter = pageFileContent.match(frontMatterRegex)[1];
     const contentWithoutFrontmatter = pageFileContent
       .replace(frontMatterRegex, ``)
