@@ -26,7 +26,6 @@ function removeAllSponsors(baseContentDir) {
     console.log('Removing sponsors from: ', content);
     
     
-    
 
 
 
