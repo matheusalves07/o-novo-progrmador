@@ -24,8 +24,6 @@ function removeAllSponsors(baseContentDir) {
   const contentDir = fs.readdirSync(contentDirPath);
   contentDir.forEach((content) => {
     console.log('Removing sponsors from: ', content);
-    
-    
 
 
 
@@ -40,7 +38,6 @@ function removeAllSponsors(baseContentDir) {
       .replace(frontMatterRegex, ``)
       .trim();
       
-
       
       
     let frontmatterObj = yaml.load(existingFrontmatter);
