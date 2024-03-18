@@ -41,6 +41,7 @@ function removeAllSponsors(baseContentDir) {
       
       
       
+      
     let frontmatterObj = yaml.load(existingFrontmatter);
     delete frontmatterObj.sponsors;
 
