@@ -23,6 +23,7 @@ function removeAllSponsors(baseContentDir) {
 
    
   
+  
   const contentDir = fs.readdirSync(contentDirPath);
   
   contentDir.forEach((content) => {
@@ -39,6 +40,7 @@ function removeAllSponsors(baseContentDir) {
     const contentWithoutFrontmatter = pageFileContent
       .replace(frontMatterRegex, ``)
       .trim();
+      
       
       
       
