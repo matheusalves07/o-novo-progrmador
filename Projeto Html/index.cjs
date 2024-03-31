@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const yaml = require('js-yaml');
+const { kill } = require('process');
 
 const apiKey = process.env.SPONSOR_SHEET_API_KEY;
 const sheetId = process.env.SPONSOR_SHEET_ID;
@@ -26,6 +27,7 @@ function removeAllSponsors(baseContentDir) {
   
   const contentDir = fs.readdirSync(contentDirPath);
   
+  
   contentDir.forEach((content) => {
     console.log('Removing sponsors from: ', content);
 
@@ -42,7 +44,7 @@ function removeAllSponsors(baseContentDir) {
       .trim();
       
       
-      
+f      
       
     let frontmatterObj = yaml.load(existingFrontmatter);
     delete frontmatterObj.sponsors;
