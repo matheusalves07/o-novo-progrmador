@@ -32,6 +32,7 @@ function removeAllSponsors(baseContentDir) {
     console.log('Removing sponsors from: ', content);
 
     
+    
 
     const pageFilePath = path.join(contentDirPath, content, `${content}.md`);
     const pageFileContent = fs.readFileSync(pageFilePath, 'utf8');
