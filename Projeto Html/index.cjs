@@ -22,9 +22,7 @@ function removeAllSponsors(baseContentDir) {
   const dataDirPath = path.join(__dirname, '../src/data');
   const contentDirPath = path.join(dataDirPath, baseContentDir);
 
-   
-  
-  
+
   
   const contentDir = fs.readdirSync(contentDirPath);
   
