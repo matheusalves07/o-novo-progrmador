@@ -16,8 +16,6 @@ const sheetRange = 'A3:I1001';
 const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetRange}?key=${apiKey}`;
 
 
-
-
 function removeAllSponsors(baseContentDir) {
   console.log('------------------------');
   console.log('Removing sponsors from: ', baseContentDir);
