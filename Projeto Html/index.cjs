@@ -17,8 +17,6 @@ const sheetUrl = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/value
 
 
 
-
-
 function removeAllSponsors(baseContentDir) {
   console.log('------------------------');
   console.log('Removing sponsors from: ', baseContentDir);
