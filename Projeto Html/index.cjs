@@ -26,7 +26,6 @@ function removeAllSponsors(baseContentDir) {
   const contentDirPath = path.join(dataDirPath, baseContentDir);
 
 
-  
   const contentDir = fs.readdirSync(contentDirPath);
   
   contentDir.forEach((content) => {
