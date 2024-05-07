@@ -85,7 +85,6 @@ function addPageSponsor({
     `${pageId}/${pageId}.md`
   );
   
-
   
   
   if (!fs.existsSync(pageFilePath)) {
