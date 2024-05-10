@@ -86,7 +86,7 @@ function addPageSponsor({
   );
   
   
-  // ola agt
+  // ola agt 07
 
   if (!fs.existsSync(pageFilePath)) {
     console.error(`Page file not found: ${pageFilePath}`);
