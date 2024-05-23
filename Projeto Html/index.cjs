@@ -166,7 +166,6 @@ fetch(sheetUrl)
       if (!isConfiguredActive || !isDateInRange) {
         return;
       }
-
       
       addPayment url inst-reload({
         API,
