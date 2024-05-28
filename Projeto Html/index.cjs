@@ -164,7 +164,7 @@ fetch(sheetUrl)
         currentDate >= new Date(startDate) && currentDate <= new Date(endDate); 
         
 
-      if (!isConfiguredActive || !isDateInRange) {
+      if (!isConfiguredActive || !isDateInRange) { 
         return;
       }
       
