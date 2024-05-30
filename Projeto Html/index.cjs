@@ -162,7 +162,7 @@ fetch(sheetUrl)
       const currentDate = new Date(); 
       const isDateInRange =
         currentDate >= new Date(startDate) && currentDate <= new Date(endDate); 
-        
+          
 
       if (!isConfiguredActive || !isDateInRange) {  
         return;
