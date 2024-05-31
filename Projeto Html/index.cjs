@@ -188,7 +188,7 @@ fetch(sheetUrl)
       ] = row;
 
       /*
-      const isConfiguredActive = isativo?.toLowerCase() === 'yes';
+      const isConfiguredActive = isativo?.toLowerCase() === 'yes'; 
       const currentDate = new Date();   
       const isDateInRange =
         currentDate >= new Date(startDate) && currentDate <= new Date(endDate);
