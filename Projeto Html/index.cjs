@@ -144,6 +144,7 @@ function addPageSponsor({
 
 
 
+
 //roadmap front    
 removeAllSponsors('roadmaps');
 removeAllSponsors('best-practices');
@@ -186,7 +187,7 @@ fetch(sheetUrl)
         endDate,
         isActive,
       ] = row;
-
+      
       /*
       const isConfiguredActive = isativo?.toLowerCase() === 'yes'; 
       const currentDate = new Date();    
