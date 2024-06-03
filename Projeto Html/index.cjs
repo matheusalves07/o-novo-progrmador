@@ -135,14 +135,11 @@ function addPageSponsor({
     quotingType: "'",
   });
   const newContent = `---\n${newFrontmatter}---\n\n${contentWithoutFrontmatter}`;
-
   fs.writeFileSync(pageFilePath, newContent, 'utf8'); 
   
   
   
 }
-
-
 
 
 //roadmap front     
