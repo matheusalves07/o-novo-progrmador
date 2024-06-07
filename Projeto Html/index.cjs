@@ -137,8 +137,6 @@ function addPageSponsor({
   const newContent = `---\n${newFrontmatter}---\n\n${contentWithoutFrontmatter}`;
   fs.writeFileSync(pageFilePath, newContent, 'utf8'); 
   
-  
-  
 }
 
 
@@ -151,7 +149,7 @@ console.log('Adding sponsors');
 console.log('------------------------');
 fetch(sheetUrl)
   .then((res) => res.json())
-  .then((rawData) => {
+  .then((rawData) => { f
     const rows = rawData.values;
     
      /* const isConfiguredActive = isActive?.toLowerCase() === 'yes';       
